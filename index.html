@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bright Steps Digital — simple digital tools for focused students." />
+    <title>Bright Steps Digital | Study tools made simple</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#products">Skip to products</a>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Bright Steps Digital home"><span>✦</span> Bright Steps <em>Digital</em></a>
+      <nav aria-label="Main navigation">
+        <a href="#products">Shop</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#help">Help</a>
+      </nav>
+      <a class="header-cta" href="#products">Browse products</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Digital tools for real student life</p>
+          <h1>Plan less. <i>Do more.</i></h1>
+          <p class="hero-text">Beautiful, easy-to-use downloads that bring a little calm to your studies.</p>
+          <a class="button primary" href="#products">Shop the collection <span>→</span></a>
+          <p class="microcopy">Instant digital downloads • Made for busy students</p>
+        </div>
+        <div class="planner-art" aria-label="Illustration of a weekly study planner">
+          <div class="sun"></div><div class="leaf leaf-one"></div><div class="leaf leaf-two"></div>
+          <article class="paper">
+            <p class="paper-title">this week</p>
+            <div class="paper-grid"><span>MON</span><span>TUE</span><span>WED</span><span>THU</span><span>FRI</span><span>SAT</span></div>
+            <div class="paper-lines"><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="paper-note">small steps count ♡</div>
+          </article>
+          <div class="sticker">you<br>got this!</div>
+        </div>
+      </section>
+
+      <section class="trust-bar" aria-label="Store benefits"><span>◌ Instant digital delivery</span><span>◌ Print or use on your device</span><span>◌ Friendly support</span></section>
+
+      <section id="products" class="products section">
+        <div class="section-heading"><div><p class="eyebrow">The starter collection</p><h2>Small tools. Big momentum.</h2></div><p>Choose a download, pay once, and make it your own.</p></div>
+        <div id="product-grid" class="product-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="how-it-works" class="how section">
+        <div class="how-visual"><span class="big-star">✦</span><div class="circle-text">START WHERE YOU ARE • START WHERE YOU ARE • </div><div class="how-card">download<br><b>your calm</b><br>one page at a time</div></div>
+        <div class="how-copy"><p class="eyebrow">Easy from start to finish</p><h2>Your fresh start is three clicks away.</h2>
+          <ol><li><strong>Pick your planner</strong><span>Find the digital tool that fits your routine.</span></li><li><strong>Pay securely</strong><span>Use the payment option shown at checkout once the shop is connected.</span></li><li><strong>Download & begin</strong><span>Your files arrive ready to print or use digitally.</span></li></ol>
+        </div>
+      </section>
+
+      <section id="help" class="help section">
+        <div><p class="eyebrow">Need a hand?</p><h2>We’re happy to help.</h2><p>Questions before you buy? Send a message and we’ll get back to you.</p></div>
+        <div class="help-actions"><a id="email-link" class="button dark" href="mailto:hello@yourshop.com">Email the shop <span>→</span></a><p>Typical reply time: 1–2 business days</p></div>
+      </section>
+    </main>
+
+    <footer><a class="brand" href="#top"><span>✦</span> Bright Steps <em>Digital</em></a><p>© <span id="year"></span> Bright Steps Digital</p><p><a href="#help">Contact</a> · <a href="#products">Shop</a></p></footer>
+
+    <dialog id="product-modal"><button class="close" aria-label="Close product details">×</button><div id="modal-content"></div></dialog>
+    <dialog id="checkout-modal"><button class="close" aria-label="Close checkout">×</button><div id="checkout-content"></div></dialog>
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
